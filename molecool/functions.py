@@ -5,7 +5,6 @@ A Python package for analyzing and visualizing molecular files. For MolSSI works
 Handles the primary functions
 """
 
-
 def canvas(with_attribution=True):
     """
     Placeholder function to show example docstring (NumPy format)
@@ -58,7 +57,7 @@ import matplotlib.pyplot as plt
 
 from mpl_toolkits.mplot3d import Axes3D
 
-%matplotlib notebook
+#%matplotlib notebook
 
 def calculate_distance(rA, rB):
     # This function calculates the distance between two points given as numpy arrays.
