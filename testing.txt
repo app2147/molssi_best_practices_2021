@@ -1,10 +1,10 @@
-*********************************
-This is the start of testing.txt
-*********************************
+********************************
+This is the start of testing.tx
+********************************
 
-I added this file from a clone!
+I added this file from a clone
 Now I added another line :)
 
-*********************************
+********************************
 This is the end of testing.txt
 *********************************
