@@ -17,6 +17,7 @@ jobs:
   welcome:
     name: Welcome the use with ASCII art
     runs-on: ubuntu-latest
+    steps:
     - uses: mscountermarsh/ascii-art-action@master
       with:
         text: "Welcome to molecool!"
