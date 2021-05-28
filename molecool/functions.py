@@ -5,11 +5,6 @@ A Python package for analyzing and visualizing molecular files. For MolSSI works
 Handles the primary functions
 """
 
-import os
-import numpy as np
-import matplotlib.pyplot as plt
-
-from mpl_toolkits.mplot3d import Axes3D
 
 def canvas(with_attribution=True):
     """
@@ -33,8 +28,9 @@ def canvas(with_attribution=True):
         quote += "\n\t- Adapted from Henry David Thoreau"
     return quote
 
+
 def zen(with_attribution=True):
-    quote = '''Beautiful is better than ugly.
+    quote = """Beautiful is better than ugly.
             Explicit is better than implicit.
             Simple is better than complex.
             Complex is better than comnplicated.
@@ -52,10 +48,11 @@ def zen(with_attribution=True):
             Although never is often better than *right* now.
             If the implementation is hard to explain, it's a bad idea.
             If the implementation is easy to explain, it may be a good idea.
-            Namespaces are one honking great idea -- let's do more of those!'''
+            Namespaces are one honking great idea -- let's do more of those!"""
     if with_attribution:
         quote += "\nTim Peters"
     return quote
+
 
 if __name__ == "__main__":
     # Do something if this file is invoked on its own
